@@ -1,3 +1,4 @@
+// My rapid key doesn't work so please go to rapidapi website.Create account and copy your key;
 
 let covid=document.getElementById("covid");
 covid.style="display:none;";
