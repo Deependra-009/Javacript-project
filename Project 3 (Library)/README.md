@@ -10,4 +10,4 @@ In this project,The main focus to learn how to implement oops in a javacsript
 * app1.js file including literals,prototype concept
 
 
-Project Link:- <a href="https://Library.deependra09.repl.co">Calculator</a>
+Project Link:- <a href="https://Library.deependra09.repl.co">Library</a>
