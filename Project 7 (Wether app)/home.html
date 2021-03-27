@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weather</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    </head>
+    <body>
+        <div id="div1">
+            <h2 id="head">Weather App</h2>
+        </div>
+       <div class="app-main">
+           <div class="searchinputbox">
+               <input type="text" id="input-box" class="input-box" placeholder="Enter City Name..." autocomplete="off">
+           </div>
+
+           <div class="weather-body">
+                <div class="location-details">
+                    <div id="city" class="city">-</div>
+                </div>
+                <div class="weather-status">
+
+                    <div id="temp" class="temp">&deg;C</div><br>
+                    <div id="min-max" class="min-max">&deg;C (max) , &deg;C (min)</div><br>
+                    <div id="weather" class="weather">clear</div>
+                    <div id="humidity" class="humidity"></div>
+                    <i id="cloudy"class="fas fa-cloud-sun"></i>
+                    <i id="rain" class="fas fa-cloud-showers-heavy"></i>
+                    <i id="snow" class="fas fa-snowflake"></i>
+                    <i id="sunny" class="far fa-sun"></i>
+                    <i id="haze" class="fas fa-smog"></i>
+                    <i id="thunderstorm" class="fas fa-bolt"></i>
+
+                </div>
+
+           </div>
+       </div>
+       <script src="file.js"></script>
+    </body>
+</html>
